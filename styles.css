@@ -1,0 +1,32 @@
+h1 {
+    background-color: #32a88b;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+#drew {
+    height: 250px;
+    width: 200px;
+    border: 10px;
+    float: right;
+    position: relative;
+    bottom:100px;
+}
+h2 {
+    text-align:center;
+}
+ul {
+    text-align: center;
+}
+p {
+    color:yellow;
+    font-size:10px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #32a88b;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
