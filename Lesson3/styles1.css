@@ -1,0 +1,60 @@
+h1 {
+    background-color: #32a88b;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Grenze', serif;
+
+}
+#drew {
+    height: 250px;
+    width: 200px;
+    border: 10px;
+    float: right;
+    position: relative;
+    bottom:100px;
+}
+body {
+
+    font-family: 'Homemade Apple', cursive;
+}
+h2 {
+    text-align:center;
+    font-family: 'Grenze', serif;
+
+}
+ul {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+
+#action {
+    text-align: center;
+    font-size:40px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+footer {
+    text-align: center;
+    background-color: #32a88b;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Grenze', serif;
+
+}
+#aud{
+    
+    font-family: 'Playfair Display', serif;
+
+}
+#type1{
+    font-family: 'Grenze', serif;
+}
+#type2 {
+    font-family: 'Playfair Display', serif;
+
+}
