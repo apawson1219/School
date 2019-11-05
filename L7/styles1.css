@@ -1,0 +1,182 @@
+h1 {
+    background-color: #32a88b;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Grenze', serif;
+
+}
+#drew {
+    height: 250px;
+    width: 200px;
+    border: 10px;
+    float: right;
+    position: relative;
+    bottom:100px;
+}
+body {
+
+    font-family: 'Homemade Apple', cursive;
+}
+h2 {
+    text-align:center;
+    font-family: 'Grenze', serif;
+
+}
+ul {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+
+#action {
+    text-align: center;
+    font-size:40px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+footer {
+    text-align: center;
+    background-color: #32a88b;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Grenze', serif;
+
+}
+#aud{
+    
+    font-family: 'Playfair Display', serif;
+
+}
+#type1{
+    font-family: 'Grenze', serif;
+}
+#type2 {
+    font-family: 'Playfair Display', serif;
+
+}
+#large {
+    width:95%;
+    height:95%;
+}
+#sum {
+    font-family: 'Grenze', serif;
+    font-size:30px;
+    text-decoration: underline;
+    position:relative;
+    top:340px;
+    width:25%;
+    background-color: #90ead4;
+    opacity: .7;
+
+
+}
+
+#list {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    top:310px;
+    background-color: #90ead4;
+    width:25%;
+    opacity: .7;
+
+
+
+}
+#chill {
+    font-family: 'Playfair Display', serif;
+    position:relative;
+    top:271px;
+    left:85px;
+
+
+}
+
+#list2 {
+    font-family: 'Playfair Display', serif;
+    position:relative;
+    top:205px;
+    background-color: #90ead4;
+    opacity: .7;
+    width: 25%;
+
+}
+#L {
+    position:relative;
+    color:red;
+    font-size: 60px;
+    left:1200px;
+    bottom:700px;
+
+}
+
+@media screen and (max-width: 992px){
+    #large {
+        height:90%;
+        width:90%;
+    }
+    #sum {
+        font-family: 'Grenze', serif;
+        font-size:25px;
+        text-decoration: underline;
+        position:relative;
+        top:335px;
+        width:25%;
+        background-color: #90ead4;
+
+    }
+    #list2 {
+        top:205.5px;
+    }
+    #list{
+        font-family: 'Playfair Display', serif;
+
+    }
+    #chill {
+        font-family: 'Playfair Display', serif;
+    
+    }
+    #M {
+        color:red;
+        position: relative;
+        left:520px;
+        bottom:585px;
+        font-size:30px;
+
+    }
+    }
+@media screen and (max-width: 600px){
+        #large {
+            height:80%;
+            width:80%;
+        }
+        #sum {
+            font-family: 'Grenze', serif;
+            font-size:15px;
+            text-decoration: underline;
+            position:relative;
+            top:326px;
+            width:25%;
+            background-color: #90ead4;
+
+
+        }
+        #list {
+            font-family: 'Playfair Display', serif;
+
+        }
+        #chill {
+            font-family: 'Playfair Display', serif;
+        
+        }
+        #S {
+            color:red;
+        }
+        }
+        .lazy {
+            display: flex;
+            flex-direction: column;
+        }
