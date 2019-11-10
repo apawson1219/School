@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+            
+            
+        
+        <link href="https://fonts.googleapis.com/css?family=Grenze|Playfair+Display&display=swap" rel="stylesheet"> 
+                
+        <script src="java8.js"></script>
+
+  <meta charset="utf-8">
+
+  <title>Storm Center</title>
+  <meta name="description" content="Storm Center">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles1.css">
+<header>
+<h1>Storm Center</h1>
+</header>
+</head>
+
+<body id="body">
+    <form action="thank.html" id="form">
+    <div id="text">
+    <label for="name"><div id="name">What is your name?<input type="text" name="getName" pattern="[A-Za-z]{5,}" required></div></label>
+    <label for="email"><div id="email">What is your email? <input type="email" name="getEmail" placeholder="drewboi@drew.com"></div></label>
+    <label for="phone"><div id="phone">What is your phone number? <input type="tel" name="phone#" placeholder="123-456-7890" required>  </div></label>
+    <label for="zip"><div id="zip">What is your zip code? <input type="number" name="zip" required></div></label>
+    <label for="date"><div id="date">What is the date?<input type="date" name="date"></div></label>
+    <label for="listy"><datalist id="listy"></label>
+        <option value="Flash Flood">
+        <option value="Hail">
+        <option value="Hurricane">
+        <option value="Thunderstorm">
+        <option value="Tornado">
+    </datalist>
+    
+    <label for="type"><div id="type">What type of storm is it?<input list="listy" name="stype"></div></label>
+    <label for="severity"><div id="severity">How severe is the storm? <input type="range" min="1" max="10" name="severe"></div></label>
+    <label for="region"><div id="region" name="region">What region? </label>
+    <select>
+        <option value="Preston">Preston</option>
+        <option value="Soda Springs">Soda Springs</option>
+        <option value="Fish Haven">Fish Haven</option>
+    </select> </div>
+    <div id="danger" name="danger">Are you in danger? 
+        <input type="radio" name="yesno" value="Yes">Yes
+        <input type="radio" name="yesno" value="no">No
+    </div>
+    <div id="comment" name="comment">Additional comments<br><textarea rows="4" cols="20"></textarea></div>
+    
+    <div id="submit"><input type="submit" form="form" name="submit" value="Submit"></div>
+    </form>
+    </div>
+    
+
+    
+
+        
+
+
+</body>
+<footer>
+    &copy;
+    | Andrew Pawson | Idaho | 
+    <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+    <br>
+   
+</html>
